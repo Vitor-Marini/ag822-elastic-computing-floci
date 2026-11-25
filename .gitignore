@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.python-version
+floci.log
+saidas/
+vars.env
+relogio.json
+monitor.sh
+.*.pid
+*.zip

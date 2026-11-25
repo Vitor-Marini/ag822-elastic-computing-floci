@@ -1,0 +1,19 @@
+18:10:43 controlador iniciado
+18:11:07 [evento] agenda-demanda-baixa: INSUFFICIENT_DATA -> ALARM
+18:11:07 [evento] agenda-demanda-alta: INSUFFICIENT_DATA -> OK
+18:13:07 [evento] agenda-demanda-baixa: ALARM -> OK
+18:13:07 [dinamica] desejada 2 -> 5 (575 req/inst (+448% do alvo))
+18:13:07 [evento] agenda-demanda-alta: OK -> ALARM
+18:14:07 [dinamica] desejada 5 -> 7 (192 req/inst (+83% do alvo))
+18:15:07 [dinamica] desejada 7 -> 8 (74 req/inst (-29% do alvo))
+18:16:07 [evento] agenda-demanda-alta: ALARM -> OK
+18:17:07 [evento] agenda-demanda-baixa: OK -> ALARM
+18:17:07 [dinamica] desejada 8 -> 7 (demanda baixa)
+18:18:07 [dinamica] desejada 7 -> 6 (demanda baixa)
+18:19:07 [evento] agenda-demanda-baixa: ALARM -> OK
+18:22:07 [evento] agenda-demanda-baixa: OK -> ALARM
+18:22:07 [dinamica] desejada 6 -> 5 (demanda baixa)
+18:23:07 [evento] agenda-demanda-baixa: ALARM -> OK
+18:24:07 [evento] agenda-demanda-baixa: OK -> ALARM
+18:24:07 [dinamica] desejada 5 -> 4 (demanda baixa)
+18:25:07 [dinamica] desejada 4 -> 3 (demanda baixa)

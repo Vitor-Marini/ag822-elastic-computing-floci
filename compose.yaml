@@ -1,0 +1,13 @@
+name: elastic-lab
+services:
+  floci:
+    image: floci/floci:latest
+    container_name: floci
+    ports:
+      - "127.0.0.1:4566:4566"    # API de todos os serviços
+      - "127.0.0.1:8080:8080"    # listener do load balancer (Etapa 2)
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      FLOCI_HOSTNAME: floci
+      FLOCI_SERVICES_DOCKER_NETWORK: elastic-lab_default

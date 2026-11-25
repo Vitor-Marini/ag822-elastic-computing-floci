@@ -1,0 +1,16 @@
+18:54:36 controlador iniciado
+18:56:07 [evento] agenda-demanda-baixa: ALARM -> OK
+18:56:27 [agendada] pre-pico-manha -> {'MinSize': 11, 'MaxSize': 12, 'DesiredCapacity': 11}
+18:57:07 [evento] agenda-demanda-alta: OK -> ALARM
+18:57:07 [dinamica] desejada 11 -> 12 (237 req/inst (+125% do alvo))
+18:58:43 [agendada] pos-pico-manha -> {'MinSize': 2, 'MaxSize': 12, 'DesiredCapacity': 5}
+18:58:43 [dinamica] desejada 5 -> 6 (68 req/inst (-35% do alvo))
+18:59:07 [evento] agenda-demanda-alta: ALARM -> OK
+19:02:07 [evento] agenda-demanda-baixa: OK -> ALARM
+19:02:07 [dinamica] desejada 6 -> 5 (demanda baixa)
+19:02:27 [agendada] pre-pico-tarde -> {'MinSize': 7, 'MaxSize': 12, 'DesiredCapacity': 7}
+19:03:07 [evento] agenda-demanda-baixa: ALARM -> OK
+19:03:42 [agendada] pos-pico-tarde -> {'MinSize': 2, 'MaxSize': 12, 'DesiredCapacity': 5}
+19:08:07 [evento] agenda-demanda-baixa: OK -> ALARM
+19:08:07 [dinamica] desejada 5 -> 4 (demanda baixa)
+19:09:07 [dinamica] desejada 4 -> 3 (demanda baixa)
