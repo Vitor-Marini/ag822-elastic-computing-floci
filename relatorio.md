@@ -1,5 +1,7 @@
 # Relatório — Elastic Computing com Floci (AgendaSaúde RP)
 
+**Grupo:** Vitor Ferraz Marini (837771) · Otavio Ribeiro Moreira da Costa (838807)
+
 Roteiro de autoestudo do AG822, Unidade X (Auto Scaling e Monitoramento). Todo o trabalho rodou no Floci
 (`floci/floci:latest`, imagem de 15/11/2026), num notebook Linux com 16 GB de RAM; por isso foi usado o grupo com
 **máximo 12** e o fator de demanda **1,0** (o roteiro só pede `--max-size 6` / `--fator 0.5` com 8 GB ou menos).

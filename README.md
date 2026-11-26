@@ -1,5 +1,7 @@
 # Elastic Computing com Floci — AgendaSaúde RP
 
+**Grupo:** Vitor Ferraz Marini (837771) · Otavio Ribeiro Moreira da Costa (838807)
+
 Roteiro de autoestudo do AG822 (Unidade X — Auto Scaling e Monitoramento): uma aplicação web atrás de um Application
 Load Balancer que ganha instâncias no pico e as devolve quando a demanda cai, rodando inteira no
 [Floci](https://floci.io), sem conta AWS.
